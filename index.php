@@ -11,7 +11,7 @@ if(!function_exists('welcome'))
 	{
 		echo "Welcome $name to the site";
 		echo 'Welcome $name to the site';
-		echo'Welcome '.$name.' to the site';    //skirtumas
+		echo'Welcome '.$name.' to the site';    //skirtumas tarp komandu
 	}
 }
 Welcome('Jevgenij');
